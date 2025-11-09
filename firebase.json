@@ -1,1 +1,55 @@
-{"flutter":{"platforms":{"android":{"default":{"projectId":"maternal-assistance-app","appId":"1:615018524779:android:b1c1f1ec00cd62ba5d812e","fileOutput":"android/app/google-services.json"}},"ios":{"default":{"projectId":"maternal-assistance-app","appId":"1:615018524779:ios:f014b84d4198d31f5d812e","uploadDebugSymbols":false,"fileOutput":"ios/Runner/GoogleService-Info.plist"}},"macos":{"default":{"projectId":"maternal-assistance-app","appId":"1:615018524779:ios:f014b84d4198d31f5d812e","uploadDebugSymbols":false,"fileOutput":"macos/Runner/GoogleService-Info.plist"}},"dart":{"lib/firebase_options.dart":{"projectId":"maternal-assistance-app","configurations":{"android":"1:615018524779:android:b1c1f1ec00cd62ba5d812e","ios":"1:615018524779:ios:f014b84d4198d31f5d812e","macos":"1:615018524779:ios:f014b84d4198d31f5d812e","web":"1:615018524779:web:213ec7dc909885eb5d812e","windows":"1:615018524779:web:619d8f7ad526df515d812e"}}}}}}
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "maternal-assistance-app",
+          "appId": "1:615018524779:android:b1c1f1ec00cd62ba5d812e",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "maternal-assistance-app",
+          "appId": "1:615018524779:ios:f014b84d4198d31f5d812e",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "macos": {
+        "default": {
+          "projectId": "maternal-assistance-app",
+          "appId": "1:615018524779:ios:f014b84d4198d31f5d812e",
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "maternal-assistance-app",
+          "configurations": {
+            "android": "1:615018524779:android:b1c1f1ec00cd62ba5d812e",
+            "ios": "1:615018524779:ios:f014b84d4198d31f5d812e",
+            "macos": "1:615018524779:ios:f014b84d4198d31f5d812e",
+            "web": "1:615018524779:web:213ec7dc909885eb5d812e",
+            "windows": "1:615018524779:web:619d8f7ad526df515d812e"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

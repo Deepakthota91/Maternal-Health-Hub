@@ -1,21 +1,19 @@
+// File: android/settings.gradle.kts
+
 pluginManagement {
-    val flutterSdkPath =
-        run {
-            val properties = java.util.Properties()
-            file("local.properties").inputStream().use { properties.load(it) }
-            val flutterSdkPath = properties.getProperty("flutter.sdk")
-            require(flutterSdkPath != null) { "flutter.sdk not set in local.properties" }
-            flutterSdkPath
-        }
-
-    includeBuild("$flutterSdkPath/packages/flutter_tools/gradle")
-
     repositories {
         google()
         mavenCentral()
         gradlePluginPortal()
     }
+    plugins {
+        // Define your plugin versions HERE
+        id("com.android.application") version "8.2.0"
+        id("org.jetbrains.kotlin.android") version "1.9.20"
+    }
 }
+
+// ... (the rest of your file, like rootProject.name and include(":app"), goes below)
 
 plugins {
     id("dev.flutter.flutter-plugin-loader") version "1.0.0"
