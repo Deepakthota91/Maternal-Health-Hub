@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "615018524779",
+    "project_id": "maternal-assistance-app",
+    "storage_bucket": "maternal-assistance-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615018524779:android:b1c1f1ec00cd62ba5d812e",
+        "android_client_info": {
+          "package_name": "com.example.maternal_assistance_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf7-FOHbxfAnp6ZZE1qr-6Xohy3_SE9_k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
